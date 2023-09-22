@@ -1,0 +1,58 @@
+* {
+    margin, padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Mono', monospace;
+    background: #000000;
+    color: #ffffff;
+}
+
+#body1 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 22px;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#io {
+    margin: 1em 0 0 0;
+}
+
+#tag {
+    padding: 2em;
+    font-style: italic;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission {
+    display: flex-column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    font-size: 24px;
+}
