@@ -1,5 +1,6 @@
 * {
-    margin, padding: 0;
+    margin: 0
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Fira Mono', monospace;
     background: #000000;
@@ -17,7 +18,7 @@ h1 {
     font-size: 48px;
 }
 h2 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 #name {
@@ -38,17 +39,35 @@ h2 {
 }
 
 #tag {
+    display: flex;
+    justify-content: center;
     padding: 2em;
     font-style: italic;
 }
 
-#socials {
+#tagline {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#tagline h2 {
+    margin:0;
+    padding:5px;
+}
 
-.center {
+#main-social-container {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+li {
+    list-style: none;
+}
+
+#intro{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,6 +77,6 @@ h2 {
     display: flex-column;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    padding: 4rem;
     font-size: 24px;
 }
