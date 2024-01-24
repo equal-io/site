@@ -131,3 +131,12 @@ a:hover {
 	margin: 0;
 	padding: 2.5rem 0 0 0;
 }
+
+#manifesto-div {
+	display: flex;
+	padding: 1.5rem 0 0 0;
+}
+.egg {
+	max-width: 5%;
+	max-height: auto;
+}
