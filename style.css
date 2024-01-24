@@ -1,82 +1,133 @@
 * {
-    margin: 0
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Fira Mono', monospace;
-    background: #000000;
-    color: #ffffff;
+	/* margin: 0 */
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Fira Mono", monospace;
+	background: #000000;
+	color: #ffffff;
 }
 
 #body1 {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
 }
 
 h1 {
-    font-size: 48px;
+	font-size: 48px;
 }
 h2 {
-    font-size: 20px;
-}
-
-#name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#title {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-#io {
-    margin: 1em 0 0 0;
-}
-
-#tag {
-    display: flex;
-    justify-content: center;
-    padding: 2em;
-    font-style: italic;
-}
-
-#tagline {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#tagline h2 {
-    margin:0;
-    padding:5px;
-}
-
-#main-social-container {
-    margin: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+	font-size: 20px;
 }
 
 li {
-    list-style: none;
+	list-style: none;
+	font-size: 18px;
 }
 
-/* #intro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+a {
+	color: #d60270;
+}
 
-#mission {
-    display: flex-column;
-    justify-content: center;
-    align-items: center;
-    padding: 4rem;
-    font-size: 24px;
+a:visited {
+	color: #042069;
+}
+
+a:hover {
+	color: #420a55;
+}
+
+#name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#io {
+	margin: 1em 0 0 0;
+}
+
+#tag {
+	display: flex;
+	justify-content: center;
+	padding: 1.5em;
+	font-style: italic;
+}
+
+#tagline {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#tagline h2 {
+	margin: 0;
+	padding: 5px;
+}
+
+#mission-header,
+#team-header {
+	text-align: right;
+}
+
+#contact-header {
+	text-align: center;
+}
+
+#opener,
+#mission,
+#about-us,
+#team {
+	display: flex-column;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	padding: 1rem 4rem;
+	font-size: 24px;
+}
+
+#main-social-container {
+	margin: 0;
+	padding: 0.25rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.sm-container {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.info {
+	margin: 0;
+	padding: 1.5rem 0;
+}
+
+#bios {
+	display: flex-column;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	padding: 2rem 4rem;
+	font-size: 18px;
+}
+
+.bio {
+	margin: 0;
+	padding: 2.5rem 0 0 0;
 }
