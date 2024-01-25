@@ -76,8 +76,7 @@ a:hover {
 	padding: 5px;
 }
 
-#mission-header,
-#team-header {
+#mission-header {
 	text-align: right;
 }
 
@@ -92,7 +91,7 @@ a:hover {
 	display: flex-column;
 	justify-content: center;
 	align-items: center;
-	text-align: justify;
+	/* text-align: justify; */
 	padding: 1rem 3.75rem;
 	font-size: 24px;
 }
@@ -125,7 +124,7 @@ a:hover {
 	display: flex-column;
 	justify-content: center;
 	align-items: center;
-	text-align: justify;
+	/* text-align: justify; */
 	padding: 2rem 1.5rem;
 	font-size: 18px;
 }
@@ -147,4 +146,17 @@ a:hover {
 .egg {
 	max-width: 5%;
 	max-height: auto;
+}
+
+.txt-center {
+	text-align: center;
+}
+
+.txt-right {
+	text-align: right;
+}
+
+#team-header,
+.txt-left {
+	text-align: left;
 }
