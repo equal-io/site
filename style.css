@@ -177,7 +177,16 @@ a:hover {
 	#team {
 		font-size: 18px;
 	}
+    #mission, #about-us {
+        padding: 1rem 2rem;
+    }
+    }
 	#bios {
 		font-size: 16px;
+		padding: 1rem 0 0 0;
 	}
+	#team {
+		padding: 1rem 2rem;
+	}
+
 }
