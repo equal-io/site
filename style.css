@@ -40,6 +40,12 @@ a:hover {
 	color: #420a55;
 }
 
+.center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 #name {
 	display: flex;
 	justify-content: center;
@@ -109,12 +115,6 @@ a:hover {
 	align-items: center;
 }
 
-.center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
 .info {
 	margin: 0;
 	padding: 1.5rem 0;
@@ -124,7 +124,6 @@ a:hover {
 	display: flex-column;
 	justify-content: center;
 	align-items: center;
-	/* text-align: justify; */
 	padding: 2rem 1.5rem;
 	font-size: 18px;
 }
@@ -164,18 +163,21 @@ a:hover {
 /* media queries */
 @media screen and (max-width: 600px) {
 	h1 {
-		font-size: 20px;
+		font-size: 22px;
 	}
 	h2 {
 		font-size: 18px;
+	}
+	li {
+		font-size: 16px;
 	}
 	#opener,
 	#mission,
 	#about-us,
 	#team {
-		font-size: 16px;
+		font-size: 18px;
 	}
 	#bios {
-		font-size: 14px;
+		font-size: 16px;
 	}
 }
