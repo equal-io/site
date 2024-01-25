@@ -5,6 +5,8 @@
 	font-family: "Fira Mono", monospace;
 	background: #000000;
 	color: #ffffff;
+	max-width: 1000px;
+	margin: auto;
 }
 
 #body1 {
@@ -50,7 +52,8 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 }
-#io {
+
+.io {
 	margin: 1em 0 0 0;
 }
 
@@ -90,7 +93,7 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 	text-align: justify;
-	padding: 1rem 4rem;
+	padding: 1rem 3.75rem;
 	font-size: 24px;
 }
 
@@ -123,13 +126,18 @@ a:hover {
 	justify-content: center;
 	align-items: center;
 	text-align: justify;
-	padding: 2rem 4rem;
+	padding: 2rem 1.5rem;
 	font-size: 18px;
 }
 
 .bio {
 	margin: 0;
 	padding: 2.5rem 0 0 0;
+}
+
+#invite {
+	text-align: center;
+	padding: 0.75rem;
 }
 
 #manifesto-div {
