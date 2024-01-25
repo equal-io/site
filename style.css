@@ -160,3 +160,22 @@ a:hover {
 .txt-left {
 	text-align: left;
 }
+
+/* media queries */
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 20px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	#opener,
+	#mission,
+	#about-us,
+	#team {
+		font-size: 16px;
+	}
+	#bios {
+		font-size: 14px;
+	}
+}
